@@ -1,0 +1,156 @@
+:root {
+  --primary: #387adf;
+  --second: #ee4266;
+  --text: #333;
+  --basic: white;
+  --third: #1ea77d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  background-color: var(--primary);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--basic);
+  background-color: var(--primary);
+}
+
+.header > h2 {
+  margin-left: 15px;
+}
+
+.header > img {
+  margin-right: 15px;
+
+  width: 50px;
+}
+
+.list1 {
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  padding: 15px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  background-color: var(--basic);
+  width: 200px;
+  height: 79px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.list > p {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+  margin-top: 10px;
+}
+
+.uang {
+  color: var(--third);
+  margin-top: 10px;
+}
+
+.uang1 {
+  color: var(--second);
+  margin-top: 10px;
+}
+
+.list3 {
+  background-color: var(--basic);
+  width: 200px;
+  height: 79px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tb {
+  font-size: 20px;
+  color: var(--primary);
+  margin-top: 20px;
+}
+
+.main {
+  padding: 15px;
+}
+
+.isi {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.headerIsi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerIsi > h3 {
+  font-size: 20px;
+  color: var(--text);
+}
+
+.headerIsi > a {
+  color: #575757;
+  font-size: 15px;
+}
+
+.mainIsi {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainIsi > .left > h3 {
+  font-size: 15px;
+  color: var(--text);
+}
+
+.mainIsi > .left > p {
+  font-size: 13px;
+  color: #898989;
+}
+
+.mainIsi > .right {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--third);
+}
+
+.garis {
+  margin-top: 10px;
+  border: 1px solid #333;
+}
+
+.isi > a {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary);
+}
