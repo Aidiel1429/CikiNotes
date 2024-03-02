@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 13px;
+  background-color: #3652ad;
+  color: white;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.header > img {
+  width: 50px;
+}
